@@ -6,7 +6,9 @@ Dự án dự báo doanh số hằng ngày tại hệ thống siêu thị Favori
 Mục tiêu là so sánh mô hình truyền thống (SARIMA) với các mô hình học máy hiện đại để đánh giá hiệu quả dự báo doanh số theo cấp độ **store × product family × day**.
 
 ## 2. Dữ liệu sử dụng
-
+*Do dung lượng file dữ liệu lớn nên không được tải trực tiếp lên GitHub. Bạn có thể tiếp cận dữ liệu theo cách sau:*
+* **Nguồn dữ liệu gốc:** https://www.kaggle.com/code/headsortails/shopping-for-insights-favorita-eda/input
+Tuy nhiên nhóm đã không sử dụng bộ dữ liệu test.csv (vì không có giá trị cho biến mục tiêu) và sử dụng bộ train.csv (được nhóm đổi tên thành train_test.csv) cho toàn bộ dự án. 
 * **train_test.csv:** lịch sử doanh số theo ngày, từng cửa hàng và từng nhóm sản phẩm
 * **transactions.csv:** số lượng giao dịch theo cửa hàng
 * **oil.csv:** giá dầu thô WTI
